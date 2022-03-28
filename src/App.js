@@ -14,7 +14,7 @@ function App() {
     const peer = new Peer({
       secure:true,
       host:'peer-js-pranay-kumar.herokuapp.com',
-      port:9000
+      port:443
       
     });
 
