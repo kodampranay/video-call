@@ -10,7 +10,7 @@ function App() {
   const peerInstance = useRef(null);
 
   useEffect(() => {
-    var getUserMedia = navigator.mediaDevices && navigator.mediaDevices.enumerateDevices
+    
     const peer = new Peer({
       host:'localhost',
       port:9000
