@@ -10,6 +10,7 @@ function App() {
   const peerInstance = useRef(null);
 
   useEffect(() => {
+    var getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
     
     const peer = new Peer({
       secure:true,
