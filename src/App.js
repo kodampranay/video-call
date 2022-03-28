@@ -13,7 +13,7 @@ function App() {
     
     const peer = new Peer({
       secure:true,
-      host:'peerjs-server-pranay.herokuapp.com/',
+      host:'peerjs-server-pranay.herokuapp.com',
       port:443
       
     });
